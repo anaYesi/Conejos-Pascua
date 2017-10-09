@@ -1,0 +1,86 @@
+
+$primay-color:#037f99;/*color azul*/
+$second-color:#ff7673;/*color rosado*/
+$three-color:white;
+.navbar-default{
+	background:$primay-color;
+	/*font-family: 'Prompt', sans-serif;*/
+}
+.navbar-default .navbar-nav>li>a {
+    color: $three-color;
+}
+.navbar-default .navbar-brand {
+    color: $three-color;
+    font-family: 'Baloo Paaji', cursive;
+    font-size: 28px;
+}
+strong{
+	color:$second-color;
+}
+.navbar-nav{
+	float:right;
+}
+.banner{
+	height: 400px;
+	background-image: url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;/**/
+}
+.fondo-tranasparente{
+	height: 200px;
+	margin-top:100px;
+	background-color: rgba(12, 93, 139, 0.72);
+}
+.titulo-bunny{
+	// background-color: pink;
+	padding: 80px 16px;
+	text-align: center;
+	color:white;
+}
+h1{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 68px;
+	color:$second-color;
+}
+/*cuatro imagenes*/
+.imagen-1{
+	border: 15px solid white;
+	height: 180px;
+	background-image: url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.letras-1{
+// padding: 80px 16px;
+	background:$primay-color;/*color de los recta*/
+	position:absolute;
+	top:170px;
+	text-align: center;
+	margin-left:-15px;
+}
+.imagen-2{
+	border: 15px solid white;
+	height: 180px;
+	background-image: url(../img/img-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagen-3{
+	border: 15px solid white;
+	height: 180px;
+	background-image: url(../img/img-3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagen-4{
+	border: 15px solid white;
+	height: 180px;
+	background-image: url(../img/img-4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*seccion2*/
+.seccion2{
+	background:red;
+	margin-top:200px;
+}
